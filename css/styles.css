@@ -1,0 +1,62 @@
+
+
+/* Welcome styles */
+
+#welcome {
+    background-image: url("../images/backgrounds/h_img.jpg");
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100%;
+    padding: 10px;
+    margin-left: 10px;
+    text-emphasis-color: #ffffff;
+    background-attachment: fixed;
+    background-size:cover; 
+  }
+
+  #welcome{
+    text-align: center;
+    text-emphasis: none;
+    text-decoration: #ffffff;
+    color: #ffffff;
+    padding-bottom: 75px;
+    padding-top: 140px;
+ 
+ }
+
+  .section1 p{
+    padding-bottom: 10%;
+  }
+
+  .mouse{
+  padding-bottom: 20px;
+}
+
+
+/* aboutUs styling */
+#aboutUs {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+#services {
+    text-align: center;
+    text-decoration-color: #ffffff;
+    color: #ffffff;
+    padding-top: 100px;
+    Padding-bottom:70px
+}
+
+/* services styling */
+#services {
+    background-image: url("../images/backgrounds/s_image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100%;
+    background-size:auto;
+}

@@ -75,15 +75,13 @@
 }
 
 
-#hover2:hover{
-  opacity: 0.8;
-}
+
 
 /* portfolio styling */
 
 #portfolio {
   text-align: center;
-  width:100%;
+  width:150vh;
   background-color:#ffffff;
 }
 
@@ -95,12 +93,16 @@
 
 /* Contact us styling */
 .section6 {
-  background-image: url("../images/backgrounds/c_image.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
+  height: 100vh;
+  /* background-color: blue; */
+  background-image: url(../images/backgrounds/c_image.jpg);
+
+  /* background-position: center center; */
+  /* background-repeat: no-repeat;
   width: 100%;
-  height:100%;
-  background-size:auto;
+  height:40rem; */
+  /* background-size:auto;
+ */
 }
 
 #socials {

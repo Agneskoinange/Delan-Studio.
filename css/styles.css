@@ -1,0 +1,46 @@
+
+
+/* Welcome styles */
+
+#welcome {
+    background-image: url("../images/backgrounds/h_img.jpg");
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+    text-emphasis-color: #ffffff;
+    background-attachment: fixed;
+    background-size:cover; 
+  }
+
+  #welcome{
+    text-align: center;
+    text-emphasis: none;
+    text-decoration: #ffffff;
+    color: #ffffff;
+ 
+ }
+
+  .section1 p{
+    padding-bottom: 10%;
+  }
+
+  .mouse{
+  padding-bottom: 20px;
+}
+
+
+
+
+#services {
+    text-align: center;
+    text-decoration-color: #ffffff;
+    color: #ffffff;
+}
+
+
+#services {
+    background-image: url("../images/backgrounds/s_image.jpg");
+}

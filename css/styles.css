@@ -60,3 +60,12 @@
     height:100%;
     background-size:auto;
 }
+
+/* portfolio styling */
+#portfolio {
+  text-align: center;
+}
+
+.project1 {
+  display: none;
+}

@@ -100,7 +100,6 @@
   background-repeat: no-repeat;
   width: 100%;
   background-size:auto;
-  padding-bottom: 400px;
 
 }
 
@@ -108,8 +107,24 @@
 #form {
   align-items: center;
   float: center;
+  padding-left: 190px;
+  
 }
 
+.textarea {
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  padding-inline-end: 50px;
+}
+
+.button {
+  display: table-cell;
+  text-align: center;
+  width: 1500px;
+  vertical-align: middle;
+
+}
 
 #socials {
   padding-top: 50px;
@@ -119,13 +134,4 @@
   text-align: center;
   width: 20000px;
   vertical-align: middle;
-}
-
-
-.button {
-    display: table-cell;
-    text-align: center;
-    width: 1500px;
-    vertical-align: middle;
-
 }

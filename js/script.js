@@ -38,3 +38,33 @@
 //     function () {
 //     $(this).animate({opacity:'0'});
 // })
+
+
+
+$(document).ready(function(){
+    $(".design").click(function(event) {
+        $(".design").toggle();
+        // $("#D1").toggle();
+        event.preventDefault();
+    });
+    $(".development").click(function(event) {
+        $(".development").toggle();
+        // $("#D2").toggle();
+        event.preventDefault();
+    });
+
+    $(".productmanagement").click(function(event) {
+        $(".productmanagement").toggle();
+        // $("#D3").toggle();
+
+        event.preventDefault();
+});
+    });
+    
+
+$(".overlay").hover(function(){
+    $(this).animate({opacity:'1'});
+  },
+  function(){
+    $(this).animate({opacity:'0'});
+  })

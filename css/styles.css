@@ -21,7 +21,7 @@
     text-emphasis: none;
     text-decoration: #ffffff;
     color: #ffffff;
-    padding-bottom: 70px;
+    padding-bottom: 130px;
     padding-top: 130px;
  
  }
@@ -75,6 +75,15 @@
   width:150vh
 }
 
+.p1, .p2, .p3 {
+  display: none;
+}
+
+.Icons {
+  padding: 3%;
+  text-align: center;
+
+}
 
 
 
@@ -86,11 +95,21 @@
   background-color:#ffffff;
 }
 
-.project1 {
-  display: none;
-  padding-bottom: 100px;
-
+.project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8 {
+position: relative;
+margin-bottom: 25px;
 }
+.overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6, .overlay7, .overlay8 {
+  position: absolute;
+  padding: 10%;
+  background-color: #ffffff;
+  bottom: 5%;
+  right: 5%;
+  display: none;
+  background: transparent;
+}
+
+
 
 /* Contact us styling */
 .section6 {
@@ -104,25 +123,43 @@
 }
 
 
+
+
+
 #form {
   align-items: center;
-  float: center;
   padding-left: 190px;
   
+}
+.form-group {
+  align-items: center;
 }
 
 .textarea {
   align-self: center;
   align-items: center;
   align-content: center;
-  padding-inline-end: 50px;
+  width: 150%; ;
 }
+
+
+
+form input[class=form-control], form textarea[class=form-control] {
+  background: transparent;
+  color: #ffffff;
+  width: 100%;
+}
+::placeholder{
+  color: #ffffff;
+}
+
 
 .button {
   display: table-cell;
   text-align: center;
-  width: 1500px;
+  width: 700px;
   vertical-align: middle;
+  
 
 }
 
@@ -134,4 +171,5 @@
   text-align: center;
   width: 20000px;
   vertical-align: middle;
+  padding-bottom: 50px;
 }

@@ -169,7 +169,8 @@ form input[class=form-control], form textarea[class=form-control] {
   text-align: justify;
   display: table-cell;
   text-align: center;
-  width: 20000px;
+  width: 3500px;
   vertical-align: middle;
   padding-bottom: 50px;
+  padding-left: 170px;
 }

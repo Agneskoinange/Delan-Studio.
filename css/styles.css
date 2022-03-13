@@ -97,6 +97,7 @@
 
 .project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8 {
 position: relative;
+margin-bottom: 25px;
 }
 .overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6, .overlay7, .overlay8 {
   position: absolute;

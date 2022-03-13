@@ -8,6 +8,24 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){
+  $("#D2, .p2").click(function(){
+    $("#D2, .p2").toggle();
+  });
+});
+
+$(document).ready(function(){
+  $("#D3, .p3").click(function(){
+    $("#D3, .p3").toggle();
+  });
+
+});
+
+
+
+
+
+
 // Porfolio
 
 $(document).ready(function(){

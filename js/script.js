@@ -54,8 +54,78 @@ $(document).ready(function(){
 
 });
 
+$(document).ready(function(){
+  $(".img3").hover(function(){
+    $(this).animate({opacity:0.2},700);
+    $(".overlay3").show(700);
+  },
+  function(){
+    $(this).animate({opacity:1},700);
+    $(".overlay3").hide(700);
+  });
+
+});
+
+$(document).ready(function(){
+  $(".img4").hover(function(){
+    $(this).animate({opacity:0.2},700);
+    $(".overlay4").show(700);
+  },
+  function(){
+    $(this).animate({opacity:1},700);
+    $(".overlay4").hide(700);
+  });
+
+});
+
+$(document).ready(function(){
+  $(".img5").hover(function(){
+    $(this).animate({opacity:0.2},700);
+    $(".overlay5").show(700);
+  },
+  function(){
+    $(this).animate({opacity:1},700);
+    $(".overlay5").hide(700);
+  });
+
+});
+
+$(document).ready(function(){
+  $(".img6").hover(function(){
+    $(this).animate({opacity:0.2},700);
+    $(".overlay6").show(700);
+  },
+  function(){
+    $(this).animate({opacity:1},700);
+    $(".overlay6").hide(700);
+  });
+
+});
+
+$(document).ready(function(){
+  $(".img7").hover(function(){
+    $(this).animate({opacity:0.2},700);
+    $(".overlay7").show(700);
+  },
+  function(){
+    $(this).animate({opacity:1},700);
+    $(".overlay7").hide(700);
+  });
+
+});
 
 
+$(document).ready(function(){
+  $(".img8").hover(function(){
+    $(this).animate({opacity:0.2},700);
+    $(".overlay8").show(700);
+  },
+  function(){
+    $(this).animate({opacity:1},700);
+    $(".overlay8").hide(700);
+  });
+
+});
 
 
 

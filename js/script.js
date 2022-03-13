@@ -1,3 +1,51 @@
+
+// Whatwedo
+$(document).ready(function(){
+  $("#D1, .p1").click(function(){
+    $("#D1, .p1").toggle();
+  });
+
+});
+
+
+// Porfolio
+
+$(document).ready(function(){
+  $(".img1").hover(function(){
+    $(this).animate({opacity:0.2},700);
+    $(".overlay1").show(700);
+  },
+  function(){
+    $(this).animate({opacity:1},700);
+    $(".overlay1").hide(700);
+  });
+
+});
+
+
+
+$(document).ready(function(){
+  $(".img2").hover(function(){
+    $(this).animate({opacity:0.2},700);
+    $(".overlay2").show(700);
+  },
+  function(){
+    $(this).animate({opacity:1},700);
+    $(".overlay2").hide(700);
+  });
+
+});
+
+
+
+
+
+
+
+
+
+
+
 // $("id=div2").hover(
 //     function () {
 //         $(this).append($("<span> HOVERING!!!!! </span>"));
@@ -86,15 +134,14 @@
     // });
 
 
-    $(document).ready(function(){
-        $(".design").click(function(){
-          $("p").hide();
-        });
-        $(".design").click(function(){
-          $("p").show();
-        });
-      });
-
+//     $(document).ready(function(){
+//         $(".design").click(function(){
+//           $("p").hide();
+//         });
+//         $(".design").click(function(){
+//           $("p").show();
+//         });
+//       });
 
 
 
@@ -104,12 +151,6 @@
 //   function(){
 //     $(this).animate({opacity:'0'});
 //   });
-
-
-
-
-
-
 
 
 
@@ -130,4 +171,6 @@
 //     });
 
 
-});
+// });
+
+// // contact-us
